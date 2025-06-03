@@ -30,7 +30,7 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
-        transition: background-color 0.15s, color 0.15s;
+        transition: background-color 0.25s, color 0.25s;
     }
 
     .Join-button:hover{
@@ -65,6 +65,13 @@
         width: 100px;
         cursor: pointer;
         margin-right: 8px;
+        transition: opacity 0.25s;
+    }
+    .Request-button:hover{
+        opacity: 0.8;
+    }
+    .Request-button:active{
+        opacity: 0.4;
     }
     .Add-button{
         background-color: rgb(255, 216, 20);
@@ -75,6 +82,10 @@
         width: 150px;
         cursor: pointer;
         margin-right: 8px;
+        transition: background-color 0.25s;
+    }
+    .Add-button:hover{
+        background-color: rgb(241, 207, 37);
     }
     .Sign-button{
         background-color: rgb(46, 164, 79);
@@ -85,6 +96,10 @@
         border-radius: 5px;
         font-weight: bold;
         cursor: pointer;
+        transition: box-shadow 0.35s;
+    }
+    .Sign-button:hover{
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
     }
     .Get-button{
         background-color: rgb(121, 82, 179);
@@ -96,9 +111,13 @@
         font-weight: bold;
         cursor: pointer;
         margin-right: 8px;
+        transition: background-color 0.35s;
+    }
+    .Get-button:hover{
+        background-color: rgb(102, 69, 151);
     }
     .Download-button{
-        background: none;
+        background: white;
         color: rgb(108, 117, 125);
         height: 30px;
         width: 75px;
@@ -107,6 +126,11 @@
         font-weight: bold;
         border-radius: 3px;
         cursor: pointer;
+        transition: background-color 0.35s, color 0.35s;  
+    }
+    .Download-button:hover{
+        background-color: rgb(108, 117, 125);
+        color: white;
     }
     .Apply-button{
         background-color:rgb(10, 102, 194);
@@ -117,6 +141,10 @@
         border-radius: 15px;
         font-weight: bold;
         cursor: pointer;
+        transition: background-color 0.35s;
+    }
+    .Apply-button:hover{
+        background-color: rgb(10, 86, 161);
     }
     .Save-button{
         background: none;
@@ -128,6 +156,11 @@
         font-weight: bold;
         border-width: 1px;
         cursor: pointer;
+        transition: background-color 0.2s;
+    }
+    .Save-button:hover{
+        background-color: rgb(204, 222, 255);
+        border-width: 1.5px;
     }
 </style>
 <button class="Subscribe-button">SUBSCRIBE</button>
